@@ -4,7 +4,7 @@ var bio = {
   "contacts":{
     "mobile": "(831)-229-7989",
     "email": "AnthonyGarcia833@gmail.com",
-    "github": "antsss83",
+    "github": "daviGarcia",
     "location": "Salinas, CA 93901"
   },
   "welcomeMessage": "Hi! I'm David.",
@@ -28,7 +28,7 @@ bio.display = function(){
   var email = HTMLemail.replace("%data%", "AnthonyGarcia833gmail.com");
   $('#header #topContacts').append(email);
   $('#footerContacts').append(email);
-  var github = HTMLgithub.replace("%data%", "antsss83");
+  var github = HTMLgithub.replace("%data%", "daviGarcia");
   $('#header #topContacts').append(github);
   $('#footerContacts').append(github);
   var location = HTMLlocation.replace("%data%", "Salinas, CA 93901");
